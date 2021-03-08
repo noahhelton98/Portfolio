@@ -5,25 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-
-
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
 
-  <body>
-    <header>
-        <section class = 'heading'>
-            <h1 class = 'centered'><strong>Noah Helton</strong></h1>
-            <h3 class = 'centered_below'>Geneticist, Bioinformatician, Soon to be Full Stack Developer</h3>
-            <img src='assets/img/dna.jpg' alt="DNA image">
-        </section>
+<body class = 'flex-container'>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-  <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <section class="collapse navbar-collapse">
-    <ul class="navbar-nav ml-auto">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <span class="navbar-text">
+                <strong>Noah Helton    </strong>
+              </span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  <section class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class= "navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="#about">About Me</a>
       </li>
@@ -37,43 +34,69 @@
 </section>
 </nav>
     </header>
-
-    <main class = 'content'>
-        <section>
+    <aside>
+        <section class = "about_title">
             <a name = 'about'></a>
             <h2>About Me</h2>
-            <p></p>
+            <section id="image_me">
+                <a href="https://www.linkedin.com/in/noah-helton/" target="_blank">
+                  <img src = 'assets/img/me.jpeg' alt="Picture of me" class = 'embed-responsive'>
+                </a>
+        </section>
         </section>
 
-        <section>
-            <a name = 'work'></a>
+        <section class = "work_title">
+            <a name='work'></a>
             <h2>My Work</h2>
-            <!--images and links to works -->
-            <img src="https://placehold.it/200x200" alt="placeholder image">
-            <img src="https://placehold.it/200x200" alt="placeholder image">
-            <img src="https://placehold.it/200x200" alt="placeholder image">
-            <img src="https://placehold.it/200x200" alt="placeholder image">
-            <img src="https://placehold.it/200x200" alt="placeholder image">
+        </section>
+    </aside>
+
+    <section class = 'main'>
+        <section class ='about'>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum repellat ducimus, omnis nisi alias quo, atque animi tenetur autem nulla. Dolore, possimus? Iure vero impedit fugiat nisi, omnis nobis, doloremque eos voluptas veniam debitis aspernatur neque. Veritatis suscipit nulla officia voluptas quia sit obcaecati aspernatur, totam dolorem consequuntur sunt sed accusamus sint labore id, beatae ipsa culpa reiciendis asperiores blanditiis, aliquid laboriosam iste dolor. Dolorum, odio quidem? Nihil sint repellendus sequi minus. Corrupti vero deleniti fugit odio unde cumque, reprehenderit quia sunt hic ab sapiente repudiandae est, iste in dolores, earum facilis maxime ipsam fuga ea natus aliquam eum amet et! Quis ipsum atque odit inventore et ad adipisci eius asperiores, sit quos rerum omnis iure at temporibus libero ipsa tenetur facere nihil deserunt numquam doloribus id? Ab maiores debitis ea, blanditiis cumque sunt omnis laudantium reiciendis voluptas pariatur tempora! Doloribus, dolorem eligendi porro dolores quaerat ea at neque libero debitis consequuntur nostrum quas consequatur ex illo natus incidunt odio itaque eius quasi earum hic est ipsa non corrupti. Delectus modi optio assumenda quibusdam voluptate expedita excepturi veritatis natus reiciendis nihil perferendis quia a, aut minima doloremque earum, consequuntur voluptas eius, itaque sunt dolore obcaecati. Sit ut saepe laudantium.
+            </p>
+        </section>
+        <section class ='work'>
+            <section>
+                <a href = 'https://noahhelton98.github.io/Code_Refactor/' target="_blank">
+                  <img id = 'big_image' src="assets/img/horiseon.png" alt="Horiseon refactor" >
+                </a>
+              </section>
+              <section id='small_image'>
+                <a href = '#' target="_blank">
+                <img src="https://placehold.it/200x200" alt="placeholder image" >
+                </a>
+                <a href = '#' target="_blank">
+                    <img src="https://placehold.it/200x200" alt="placeholder image" >
+                </a>
+                <a href = '#' target="_blank">
+                <img src="https://placehold.it/200x200" alt="placeholder image" >
+                </a>
+                <a href = '#' target="_blank">
+                    <img src="https://placehold.it/200x200" alt="placeholder image" >
+                </a>
+              </section>
+      
         </section>
 
-
-    </main>
-
-    <footer>
+    </section>
+    <footer id ='contact'>
         <a name = 'contact'></a>
 
-        <h3>Contact Me!</h3>
-        <ul>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-        </ul>
+        <section class = 'contact_links'>
+            <ul>
+              <li><a>(440)555-5555</a></li>
+              <li><a>noahhelton98@gmail.com</a></li>
+              <li><a href="https://github.com/noahhelton98" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/noah-helton/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </section>
     </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+</body>
+ 
