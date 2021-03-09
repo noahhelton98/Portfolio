@@ -6,4 +6,4 @@ This repository contains the source code for my Portfolio. This portfolio will c
 link: https://noahhelton98.github.io/Portfolio/
 
 
-![screenshot of website](/Portfolio/assets/img/screenshot.png)
+![screenshot of website]("assets/img/screenshot.png")
