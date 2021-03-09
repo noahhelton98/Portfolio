@@ -1,11 +1,10 @@
 
 
-
-
 html {
-    min-width: 550px;
-    position: relative;
-    }
+  min-width: 550px;
+  position: relative;
+  }
+
 
 .flex-container {
     display: flex;
@@ -31,11 +30,11 @@ html {
   }
 
   .main{
+    display: block;
     margin-top: 2rem ;
     margin-bottom: 2rem;
-    flex-wrap: wrap;
     width: 90%;
-    justify-content: left;
+    justify-content: center;
   }
 
 
@@ -44,6 +43,7 @@ html {
     margin-bottom: 2rem;
     width: 10%;
     justify-content: right;
+    display: block;
   }
 
 
@@ -56,41 +56,68 @@ html {
 
   .about_title{
       height: 50%;
-      margin: auto;
+      margin-right: 1rem;
+      margin-left: 1rem;
 
   }
+
+  
+  
+
 
   .work_title{
     height: 50%;
-    margin: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
 
     }
 
-    img:hover {
-        filter: blur(1px);
-    }
+
+  
+   
   .about {
-      width: 95%;
-      margin: auto;
+      width: 90%;
       height: 50%;
       flex-wrap: wrap;
+      margin-left: 2rem;
+      display:block; 
+      margin-bottom: 10rem;
   }
   .work {
-    width: 95%;
-    margin: auto;
+    justify-content: center;
+    width: 90%;
+    margin-top: 4rem;
     height: 50%;
-
+    margin-left: auto;
+}
+.embed-responsive{
+  min-width: 80px;
 }
 
-.big_image{
-    width: 400px;
-    max-height: 300px;
+img {
+  -webkit-filter: blur(1.5px); 
+  filter: blur(1.5px);
 }
 
-.small_image{
-    max-width: 200px;
-    max-height: 200px;
+.embed-responsive{
+  -webkit-filter: blur(0px); 
+  filter: blur(0px);
 }
+
+img:hover {
+  -webkit-filter: blur(0px); 
+  filter: blur(0px);
+}
+
+.big_image img{
+  transform: translateX(25%);
+}
+
+
+.small_image img{
+  transform: translateX(102%);
+}
+
 
 #contact{
     justify-content: center;
@@ -101,7 +128,7 @@ html {
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-top: 4rem;
+    margin-top: 10rem;
   
   }
   
