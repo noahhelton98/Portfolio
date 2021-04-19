@@ -1,7 +1,31 @@
 main{
-  background-color: grey;
+  display: block;
+  background-color: rgb(215, 210, 210);
+  align-items: center;
+
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;;
+  font-family: 'Titillium Web', sans-serif;
+  align-items: center;
+
+}
+
+h2 {
+  align-items: center;
+  width: 50%;
+}
+
+p{
+  align-items: center;
+  width: 50%;
+}
+
+#aboutMe{
+  margin-bottom: 5rem;
+}
+#myWork{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
 }
